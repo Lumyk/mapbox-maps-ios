@@ -26,7 +26,7 @@ Pod::Spec.new do |m|
   m.pod_target_xcconfig = { 'CODE_SIGNING_ALLOWED' => 'NO' }
 
   m.dependency 'MapboxCoreMaps', '10.15.0'
-  m.dependency 'MapboxMobileEvents', '1.0.10'
+  m.dependency 'MapboxMobileEvents', '0.10.14'
   m.dependency 'MapboxCommon', '23.7.0'
   m.dependency 'Turf', '~> 2.0'
 
